@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Winter Fun · 50 Printable Puzzles &amp; Mazes for Kids 4–8</title>
+<meta name="description" content="50 printable winter activity pages for kids ages 4–8: mazes, word searches, spot the difference, dot-to-dots, secret codes and more. Instant PDF download for $10.">
+<meta property="og:title" content="Winter Fun · 50 Printable Puzzles & Mazes for Kids">
+<meta property="og:description" content="Screen-free fun for snowy days. Instant PDF download, print at home.">
+<meta property="og:image" content="img/og.jpg">
+<meta property="og:type" content="product">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F9FE; --ice:#E3F1FC; --sky:#CFE6F7; --ink:#1F3A5F; --soft:#5A6F88;
+    --blue:#2F80D1; --red:#D94B4B; --red2:#B23A3A; --green:#3E8E5B; --orange:#F29A38; --purple:#7B5EA7;
+    --line:#D8E6F3; --radius:18px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Nunito,system-ui,sans-serif;font-size:17px;line-height:1.55}
+  img,video{max-width:100%;height:auto;display:block}
+  h1,h2,h3{font-family:Fredoka,Nunito,sans-serif;line-height:1.15;margin:0 0 .45em;font-weight:700}
+  h1{font-size:clamp(32px,5.4vw,54px)}
+  h2{font-size:clamp(27px,4.2vw,40px);text-align:center}
+  h3{font-size:21px;font-weight:600}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+  section{padding:60px 0}
+  .topbar{background:var(--ink);color:#fff;text-align:center;font-weight:800;font-size:13px;letter-spacing:.06em;padding:9px 12px;text-transform:uppercase}
+  .topbar span{color:#FFD36B}
+
+  /* hero com neve */
+  .hero{position:relative;overflow:hidden;background:linear-gradient(180deg,#FFFFFF,var(--ice) 70%,var(--bg));padding:42px 0 54px}
+  .hero:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.8;
+    background-image:radial-gradient(circle,#fff 0 3px,transparent 4px),radial-gradient(circle,#fff 0 2px,transparent 3px);
+    background-size:90px 90px,55px 55px;background-position:0 0,25px 35px;animation:snow 14s linear infinite}
+  @keyframes snow{to{background-position:0 900px,25px 585px}}
+  @media (prefers-reduced-motion:reduce){.hero:before{animation:none}}
+  .hero .grid{position:relative;display:grid;grid-template-columns:1fr 1.05fr;gap:30px;align-items:center}
+  .eyebrow{display:inline-block;background:#fff;border:2px solid var(--sky);color:var(--blue);font-weight:800;font-size:13px;padding:6px 14px;border-radius:999px;margin-bottom:14px;text-transform:uppercase;letter-spacing:.05em}
+  h1 .accent{color:var(--red)}
+  .lead{font-size:19px;color:var(--soft);margin:0 0 20px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px;padding:0;list-style:none}
+  .chips li{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:14px;font-weight:800}
+  .btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-family:Fredoka,sans-serif;font-weight:600;font-size:21px;padding:16px 32px;border-radius:14px;box-shadow:0 6px 0 var(--red2);text-align:center;transition:transform .1s}
+  .btn:hover{transform:translateY(-1px)}
+  .btn:active{transform:translateY(3px);box-shadow:0 3px 0 var(--red2)}
+  .micro{font-size:14px;color:var(--soft);margin-top:14px}
+  .hero-img{border-radius:24px}
+
+  .sub{color:var(--soft);text-align:center;max-width:690px;margin:0 auto 34px}
+  .pains{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .pain{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+  .pain .ic{font-size:30px;line-height:1;margin-bottom:8px}
+  .pain b{display:block;font-family:Fredoka,sans-serif;font-weight:600;font-size:19px;margin-bottom:4px}
+  .pain p{margin:0;font-size:15px;color:var(--soft)}
+
+  .inside{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .tile{background:#fff;border-radius:var(--radius);padding:12px 12px 16px;text-align:center;box-shadow:0 10px 26px rgba(31,58,95,.10);border-top:6px solid var(--c)}
+  .tile img{border:1px solid var(--line);border-radius:8px;margin-bottom:12px}
+  .tile .n{font-family:Fredoka,sans-serif;font-weight:700;font-size:20px;color:var(--c)}
+  .tile p{margin:2px 0 0;font-size:14px;color:var(--soft)}
+
+  .band{background:#fff}
+  .feature{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+  .feature + .feature{margin-top:64px}
+  .feature.rev .txt{order:2}
+  .page{border-radius:10px;box-shadow:0 18px 40px rgba(31,58,95,.18);border:1px solid var(--line);width:100%;max-width:400px;margin:0 auto}
+  .feature>*,.hero .grid>*,.duo>*{min-width:0}
+  .vid{width:100%;border-radius:22px;box-shadow:0 18px 40px rgba(31,58,95,.22);max-width:320px;margin:0 auto;background:var(--ice)}
+  .tag{display:inline-block;background:var(--c,var(--blue));color:#fff;font-weight:800;font-size:13px;padding:5px 12px;border-radius:999px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+  .ticks{list-style:none;padding:0;margin:14px 0 0}
+  .ticks li{padding-left:32px;position:relative;margin:10px 0}
+  .ticks li:before{content:"";position:absolute;left:0;top:3px;width:21px;height:21px;border-radius:50%;background:var(--green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5 10.5l3 3 7-7' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E") center/13px no-repeat}
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}
+  .step{background:#fff;border-radius:var(--radius);padding:26px 22px;text-align:center;border:2px solid var(--line)}
+  .step:before{counter-increment:s;content:counter(s);display:flex;align-items:center;justify-content:center;width:52px;height:52px;margin:0 auto 12px;border-radius:50%;background:var(--blue);color:#fff;font-family:Fredoka,sans-serif;font-weight:700;font-size:26px}
+  .step p{margin:0;color:var(--soft);font-size:15px}
+
+  .who{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .who>div{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-align:center}
+  .who .ic{font-size:34px}
+  .who b{display:block;font-family:Fredoka,sans-serif;font-weight:600;font-size:18px}
+  .who p{margin:4px 0 0;font-size:14px;color:var(--soft)}
+
+  .offer{background:linear-gradient(180deg,var(--ink),#16304F);color:#fff}
+  .offer h2{color:#fff}
+  .offer .sub{color:#C9D9EA}
+  .box{background:#fff;color:var(--ink);max-width:560px;margin:0 auto;border-radius:24px;padding:30px 28px;box-shadow:0 24px 60px rgba(0,0,0,.3)}
+  .box .cover{max-width:260px;margin:0 auto 20px;border-radius:8px;box-shadow:0 12px 28px rgba(31,58,95,.25)}
+  .items{list-style:none;padding:0;margin:0 0 18px}
+  .items li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:16px}
+  .items li span:last-child{font-weight:800;color:var(--green);white-space:nowrap}
+  .price{text-align:center;margin:14px 0 18px}
+  .price .old{color:var(--soft);font-size:16px}
+  .price .now{font-family:Fredoka,sans-serif;font-weight:700;font-size:64px;color:var(--red);line-height:1.05}
+  .price .now small{font-size:22px;color:var(--soft);font-weight:600}
+  .price .note{font-size:14px;color:var(--soft)}
+  .box .btn{display:block;width:100%}
+  .secure{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--soft);margin-top:14px}
+  .guarantee{display:flex;gap:14px;align-items:center;background:var(--ice);border-radius:14px;padding:14px 16px;margin-top:20px;font-size:15px}
+  .seal{flex:0 0 66px;height:66px;border-radius:50%;background:var(--green);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:Fredoka,sans-serif;font-weight:700;line-height:1;font-size:24px}
+  .seal small{font-size:10px;letter-spacing:.05em}
+
+  .faq details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:10px auto;max-width:780px}
+  .faq summary{cursor:pointer;font-weight:800;list-style:none;position:relative;padding-right:28px}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary:after{content:"+";position:absolute;right:0;top:-4px;font-size:26px;color:var(--blue)}
+  .faq details[open] summary:after{content:"–"}
+  .faq p{margin:10px 0 0;color:var(--soft)}
+  .center{text-align:center}
+  footer{background:#12253D;color:#B9C9DB;font-size:13px;padding:30px 0 96px;text-align:center}
+  footer p{max-width:760px;margin:8px auto}
+  footer a{color:#fff}
+  .sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(244,249,254,.96);backdrop-filter:blur(6px);border-top:1px solid var(--line);padding:10px 14px;display:none;z-index:9}
+  .sticky .btn{display:block;font-size:18px;padding:13px}
+
+  @media (max-width:900px){
+    .hero .grid,.feature{grid-template-columns:1fr}
+    .feature.rev .txt{order:0}
+    .hero{text-align:center}
+    .chips{justify-content:center}
+    .pains,.inside,.who{grid-template-columns:repeat(2,1fr)}
+    .steps{grid-template-columns:1fr}
+    .sticky{display:block}
+    section{padding:46px 0}
+  }
+  @media (max-width:440px){
+    .pains,.who{grid-template-columns:1fr}
+    .inside{gap:12px}
+    .tile .n{font-size:17px}
+    .price .now{font-size:56px}
+  }
+</style>
+
+<!-- Meta Pixel Code (mesmo pixel da outra landing; troque o ID se criar um pixel só para este produto) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1418162847067671');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1418162847067671&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<script>
+// >>> COLE AQUI O LINK DO CHECKOUT (Cakto) DO PRODUTO DE US$ 10 <<<
+var CHECKOUT_URL = 'https://pay.cakto.com.br/COLE-SEU-LINK-AQUI';
+
+document.addEventListener('DOMContentLoaded', function () {
+  var produto = {content_name: 'Winter Fun Puzzles & Mazes', content_type: 'product', value: 10, currency: 'USD'};
+  document.querySelectorAll('a.buy').forEach(function (a) {
+    a.href = CHECKOUT_URL;
+    a.addEventListener('click', function () { if (window.fbq) fbq('track', 'InitiateCheckout', produto); });
+  });
+  var oferta = document.getElementById('get-it');
+  if (oferta && 'IntersectionObserver' in window) {
+    var visto = false;
+    new IntersectionObserver(function (es, obs) {
+      if (!visto && es[0].isIntersecting) { visto = true; if (window.fbq) fbq('track', 'ViewContent', produto); obs.disconnect(); }
+    }, {threshold: 0.4}).observe(oferta);
+  }
+});
+</script>
+</head>
+<body>
+
+<div class="topbar">❄️ Launch price: <span>only $10</span> · Instant PDF download</div>
+
+<header class="hero">
+  <div class="wrap grid">
+    <div>
+      <span class="eyebrow">Printable activity book · Ages 4–8</span>
+      <h1>50 winter puzzles &amp; mazes for <span class="accent">snowy days</span></h1>
+      <p class="lead">Screen-free fun your kids will actually ask for. Print a page, grab a pencil and watch them stay busy, happy and learning.</p>
+      <ul class="chips">
+        <li>🧩 12 mazes</li><li>🔎 8 word searches</li><li>👀 5 spot the difference</li><li>✏️ + 25 more</li>
+      </ul>
+      <a class="btn buy" href="#get-it">Get it now for $10</a>
+      <p class="micro">Instant download · Print at home as often as you like</p>
+    </div>
+    <img class="hero-img" src="img/hero.jpg" width="1200" height="1100" alt="Winter Fun activity book cover with sample maze and spot the difference pages">
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Stuck inside again?</h2>
+    <p class="sub">Canadian winters are long. This book turns the “I'm bored!” moments into quiet, happy activity time.</p>
+    <div class="pains">
+      <div class="pain"><div class="ic">❄️</div><b>Snow days</b><p>School's cancelled and it's too cold to play outside.</p></div>
+      <div class="pain"><div class="ic">📱</div><b>Too much screen time</b><p>A fun break from tablets and TV, without the fight.</p></div>
+      <div class="pain"><div class="ic">🤫</div><b>Quiet time</b><p>Perfect while you cook, work from home or need a moment.</p></div>
+      <div class="pain"><div class="ic">🚗</div><b>On the go</b><p>Road trips, restaurants, waiting rooms and holiday visits.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>What's inside</h2>
+    <p class="sub">50 colourful, illustrated pages, from easy to tricky, so the book grows with your child.</p>
+    <div class="inside">
+      <div class="tile" style="--c:var(--blue)"><img src="img/maze.jpg" width="720" height="932" loading="lazy" alt="Maze page"><div class="n">12 Mazes</div><p>Easy to challenge</p></div>
+      <div class="tile" style="--c:var(--green)"><img src="img/word.jpg" width="720" height="932" loading="lazy" alt="Word search page"><div class="n">8 Word Searches</div><p>Winter &amp; Canada words</p></div>
+      <div class="tile" style="--c:var(--red)"><img src="img/spot.jpg" width="720" height="932" loading="lazy" alt="Spot the difference page"><div class="n">5 Spot the Difference</div><p>Painted winter scenes</p></div>
+      <div class="tile" style="--c:var(--orange)"><img src="img/dot.jpg" width="720" height="932" loading="lazy" alt="Dot-to-dot page"><div class="n">5 Dot-to-Dots</div><p>Connect, then colour</p></div>
+      <div class="tile" style="--c:var(--purple)"><img src="img/match.jpg" width="720" height="932" loading="lazy" alt="Matching game page"><div class="n">4 Matching Games</div><p>Words &amp; clues</p></div>
+      <div class="tile" style="--c:var(--blue)"><img src="img/brain.jpg" width="720" height="932" loading="lazy" alt="Brain boost page"><div class="n">4 Brain Boosts</div><p>Counting &amp; logic</p></div>
+      <div class="tile" style="--c:var(--green)"><img src="img/code.jpg" width="720" height="932" loading="lazy" alt="Secret code page"><div class="n">4 Secret Codes</div><p>Crack the message</p></div>
+      <div class="tile" style="--c:var(--red)"><img src="img/cert.jpg" width="720" height="932" loading="lazy" alt="Certificate page"><div class="n">Answer Key + Certificate</div><p>For grown-ups &amp; a reward</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="feature">
+      <div class="txt">
+        <span class="tag" style="--c:var(--blue)">12 mazes</span>
+        <h2 style="text-align:left">Mazes with cute winter friends</h2>
+        <p>Help the fox reach the pine tree, bring the toque to the snowman, guide the penguin to the igloo… Every maze has a friendly start and finish, and they get a little harder as kids go.</p>
+        <ul class="ticks"><li>Easy, medium and challenge levels</li><li>Big, clear paths for little hands</li><li>Every maze solved in the answer key</li></ul>
+      </div>
+      <video class="vid" src="img/video_03_labirinto.mp4" poster="img/maze2.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A maze being solved"></video>
+    </div>
+
+    <div class="feature rev">
+      <div class="txt">
+        <span class="tag" style="--c:var(--red)">5 painted scenes</span>
+        <h2 style="text-align:left">Spot the difference, beautifully illustrated</h2>
+        <p>Snowmen, moose, beavers, penguins and cozy cabins in full-colour painted scenes. Each one hides exactly 5 differences, so kids know when they've found them all.</p>
+        <ul class="ticks"><li>Builds focus and attention to detail</li><li>Exactly 5 differences per scene</li><li>Fun for the whole family to do together</li></ul>
+      </div>
+      <video class="vid" src="img/video_02_desafio.mp4" poster="img/spot2.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Spot the difference challenge"></video>
+    </div>
+
+    <div class="feature">
+      <div class="txt">
+        <span class="tag" style="--c:var(--green)">Answer key included</span>
+        <h2 style="text-align:left">Made for grown-ups too</h2>
+        <p>No guessing: every puzzle has its answer at the back of the book. And when the last page is done, there's a certificate to celebrate your little winter explorer.</p>
+        <ul class="ticks"><li>5 pages of answers</li><li>Printable certificate of completion</li><li>Canadian spelling: colour, toque, maple…</li></ul>
+      </div>
+      <div class="duo">
+        <img class="page" src="img/answer.jpg" width="720" height="932" loading="lazy" alt="Answer key page">
+        <img class="page" src="img/cert.jpg" width="720" height="932" loading="lazy" alt="Certificate page">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="sub">No shipping, no waiting. You can be printing in 2 minutes.</p>
+    <div class="steps">
+      <div class="step"><h3>Buy</h3><p>Click the button and pay securely by card.</p></div>
+      <div class="step"><h3>Download</h3><p>Get your PDF instantly by email.</p></div>
+      <div class="step"><h3>Print &amp; play</h3><p>Print at home, all 50 pages or just a few, as often as you like.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Perfect for</h2>
+    <div class="who">
+      <div><div class="ic">👨‍👩‍👧</div><b>Parents</b><p>Snow days, weekends &amp; quiet time</p></div>
+      <div><div class="ic">🍎</div><b>Teachers</b><p>Early finishers &amp; indoor recess</p></div>
+      <div><div class="ic">🏡</div><b>Homeschoolers</b><p>Fun practice for ages 4–8</p></div>
+      <div><div class="ic">🎁</div><b>Grandparents</b><p>A ready-to-go visit activity</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="offer" id="get-it">
+  <div class="wrap">
+    <h2>Get Winter Fun today</h2>
+    <p class="sub">One small price, a whole winter of activities.</p>
+    <div class="box">
+      <img class="cover" src="img/cover.jpg" width="720" height="932" loading="lazy" alt="Winter Fun book cover">
+      <ul class="items">
+        <li><span>12 mazes</span><span>✓</span></li>
+        <li><span>8 word searches</span><span>✓</span></li>
+        <li><span>5 spot the difference scenes</span><span>✓</span></li>
+        <li><span>5 dot-to-dots</span><span>✓</span></li>
+        <li><span>4 matching games + 4 brain boosts</span><span>✓</span></li>
+        <li><span>4 secret codes</span><span>✓</span></li>
+        <li><span>Answer key + certificate</span><span>✓</span></li>
+      </ul>
+      <div class="price">
+        <div class="old">50 pages · that's just 20¢ a page</div>
+        <div class="now">$10 <small>USD</small></div>
+        <div class="note">One-time payment · Instant download</div>
+      </div>
+      <a class="btn buy" href="#get-it">Yes! I want Winter Fun</a>
+      <div class="secure"><span>🔒 Secure checkout</span><span>💳 All major cards</span><span>📩 PDF by email</span></div>
+      <div class="guarantee">
+        <div class="seal">7<small>DAYS</small></div>
+        <div><b>Happy kids or your money back.</b> If you're not happy with the book, email us within 7 days for a full refund. No questions asked.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap">
+    <h2>Questions?</h2>
+    <details><summary>Is this a physical book?</summary><p>No, it's a digital PDF. Nothing is shipped. You download it right after buying and print it at home, at school or at a print shop.</p></details>
+    <details><summary>What paper size is it?</summary><p>US Letter (8.5 × 11 in), the standard paper in Canada. It also prints fine on A4: just choose “Fit to page” in your printer settings.</p></details>
+    <details><summary>Can I print it more than once?</summary><p>Yes! Print the pages as many times as you like for your own family or your own classroom. Great for siblings.</p></details>
+    <details><summary>What ages is it for?</summary><p>Kids ages 4 to 8. Younger kids love the mazes, dot-to-dots and matching; older kids enjoy the word searches, secret codes and harder mazes.</p></details>
+    <details><summary>Do I need colour ink?</summary><p>Colour looks best, especially the painted spot-the-difference scenes, but every page also works in black and white.</p></details>
+    <details><summary>How do I get the file?</summary><p>Right after payment you'll see a download link and also receive it by email. If you can't find it, check your spam folder or contact us.</p></details>
+    <details><summary>Is the price in Canadian dollars?</summary><p>The price is $10 USD (about CA$14). Your card converts it automatically.</p></details>
+    <p class="center" style="margin-top:30px"><a class="btn buy" href="#get-it">Get it now for $10</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Winter Fun · Puzzles &amp; Mazes</b></p>
+    <p>Digital product for personal and classroom use. Please don't resell or share the file.</p>
+    <p>© 2026 Winter Fun. All rights reserved.</p>
+  </div>
+</footer>
+
+<div class="sticky"><a class="btn buy" href="#get-it">Get Winter Fun for $10</a></div>
+
+</body>
+</html>
